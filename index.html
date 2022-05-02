@@ -9,8 +9,52 @@
 </head>
 <body>
   <main>
-    
+    <ul class="nav-menu">
+      <li class="navItems logo">
+          <a class="navbar-brand inActive" href="#">Awesome Books</a>
+      </li>
+      <li class="navItems">
+          <a class="nav-link inActive" href="#" id="contact-link">Contact</a>
+      </li>
+      <li class="navItems two">
+          <a class="nav-link inActive" href="#" id="addNew-link">Add New</a>
+      </li>
+
+      <li class="navItems one">
+          <a class="nav-link active" href="#" id="list-link">List</a>
+      </li>
+
+  </ul>
+
+  <div class="dateNtime"></div>
+  <section class="list">
+    <h1>All Awesome Books</h1>
+    <table id="book-Collection"></table>
+</section>
+<section class="addNew" id="addNew">
+  <h1>Add a new book</h1>
+  <form id="bookForm">
+      <input type="text" placeholder="Title" id="title"> <br> <br>
+      <input type="text" placeholder="Author" id="author"> <br> <br>
+      <input type="submit" name="submit" id="submit" value="Add">
+  </form>
+</section>
+<section class="container2 contact">
+  <div class="contact-items">
+      <h2 class="contact-title">Contact information</h2>
+      Do you have any questions or you just want to say "Hello"?
+      <br/> You can reach out to us!
+      <div class="contact-info">
+          <ul>
+              <li>Our e-mail: mail@mail.com</li>
+              <li>Our phone number: 0123456789</li>
+              <li>Our address: Streetname 22, 84503 City, Country</li>
+          </ul>
+      </div>
+  </div>
+</section>
   </main>
-  <script src="index.js"></script>
+  <script type="module" src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.2/build/global/luxon.min.js"></script>
 </body>
 </html>
