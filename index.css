@@ -1,0 +1,150 @@
+main {
+  font-weight: bolder;
+  width: 100%;
+  overflow: hidden;
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  border: 5px solid;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+#th1 {
+  width: 10%;
+}
+
+#th3 {
+  text-align: right;
+}
+
+.addNew {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#addNew h1,
+form {
+  text-align: center;
+}
+
+form input {
+  width: 40%;
+  font-weight: bolder;
+}
+
+#submit {
+  width: auto;
+  margin-left: 35%;
+}
+
+.active {
+  color: blue;
+}
+
+.inActive {
+  color: black;
+}
+
+.contact {
+  display: none;
+  border: 5px solid black;
+  width: 94%;
+  margin-left: 2rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-items {
+  width: 60%;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px auto 0 auto;
+}
+
+.contact-title {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.contact-info {
+  width: 90%;
+  text-align: left;
+  margin: 20px auto 0 auto;
+}
+
+footer p {
+  width: 92%;
+  border: 5px solid black;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+.list {
+  display: block;
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.list h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.dateNtime {
+  text-align: right;
+  margin-right: 2.5%;
+}
+
+.nav-menu {
+  list-style-type: none;
+  border: 6px solid;
+  margin: 0 27px;
+  padding: 5px 24px 24px 24px;
+}
+
+.nav-menu li {
+  float: right;
+}
+
+.one,
+.two {
+  border-right: 3px solid;
+}
+
+.nav-menu .logo {
+  float: left;
+}
+
+.navItems a {
+  display: block;
+  text-decoration: none;
+  margin: 0 12px;
+}
