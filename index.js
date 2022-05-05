@@ -71,7 +71,7 @@ class BookUI {
     }
   }
 
-  static clearFilds() {
+  static clearFields() {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
   }
@@ -86,7 +86,7 @@ document.querySelector('#bookForm').addEventListener('submit', (e) => {
   const book = new Book(title, author);
   BookUI.addBooks(book);
   BookList.addItem(book);
-  BookUI.clearFilds();
+  BookUI.clearFields();
 });
 document.getElementById('book-Collection').addEventListener('click', (e) => {
   BookUI.deleteBook(e.target);
