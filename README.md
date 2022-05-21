@@ -2,7 +2,7 @@
 
 >This is project built to show collections of books, and give users access to add new books or remove an existing book
 
-## [Deployed Version](https://kamzzy.github.io/bookApp/)
+## Deployed Version:[https://kamzzy.github.io/bookApp/](https://kamzzy.github.io/bookApp/)
 
 ## Built With
 * HTML
