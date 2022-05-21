@@ -5,10 +5,23 @@ import BookList from './modules/getBookClass.js';
 const listLink = document.querySelector('#list-link');
 const addNewLink = document.querySelector('#addNew-link');
 const contact = document.querySelector('#contact-link');
+const logo = document.querySelector('.navbarBrand');
 
 const listSection = document.querySelector('.list');
 const addNewSection = document.querySelector('.addNew');
 const contactSection = document.querySelector('.contact');
+
+logo.addEventListener('click', () => {
+  listLink.classList.add('active');
+  listLink.classList.remove('inActive');
+  addNewLink.classList.remove('active');
+  addNewLink.classList.add('inctive');
+  contact.classList.remove('active');
+  contact.classList.add('inActive');
+  listSection.style.display = 'block';
+  addNewSection.style.display = 'none';
+  contactSection.style.display = 'none';
+});
 
 listLink.addEventListener('click', () => {
   listLink.classList.add('active');
