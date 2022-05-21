@@ -1,8 +1,10 @@
-main {
+body {
   font-weight: bolder;
   width: 100%;
   overflow: hidden;
   color: black;
+  background: url('./icons/background.png') no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -12,8 +14,12 @@ header {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 95%;
-  border: 5px solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(223.69deg, rgba(246, 25, 224, 0.2) 42.35%, rgba(247, 25, 224, 0.2) 48.48%, rgba(50, 20, 232, 0.2) 60.46%, rgba(50, 20, 232, 0.2) 71.41%); /* the gradient */
+  background-origin: border-box; /* set background to start from border-box */
+  border-spacing: 5px; /* space between each cell */
+  border: 5px solid transparent; /* optional */
 }
 
 td,
@@ -23,11 +29,11 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: rgb(227, 233, 233);
 }
 
 #th1 {
-  width: 10%;
+  width: auto;
 }
 
 #th3 {
@@ -66,31 +72,11 @@ form input {
 
 .contact {
   display: none;
-  border: 5px solid black;
   width: 94%;
   margin-left: 2rem;
   margin-right: 4rem;
   margin-top: 1rem;
   text-align: center;
-}
-
-.contact-items {
-  width: 60%;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 20px auto 0 auto;
-}
-
-.contact-title {
-  font-size: 35px;
-  text-align: center;
-  margin: 0 0 10px 0;
-}
-
-.contact-info {
-  width: 90%;
-  text-align: left;
-  margin: 20px auto 0 auto;
 }
 
 footer p {
@@ -118,16 +104,21 @@ footer p {
   text-align: center;
 }
 
-.dateNtime {
+.date {
   text-align: right;
   margin-right: 2.5%;
+  font-weight: bold;
+  color: rgb(45, 141, 238);
 }
 
 .nav-menu {
   list-style-type: none;
-  border: 6px solid;
   margin: 0 27px;
   padding: 5px 24px 24px 24px;
+}
+
+.navbarBrand img {
+  width: 95px;
 }
 
 .nav-menu li {
@@ -137,6 +128,7 @@ footer p {
 .one,
 .two {
   border-right: 3px solid;
+  border-image: linear-gradient(223.69deg, rgba(246, 25, 224, 0.2) 42.35%, rgba(247, 25, 224, 0.2) 48.48%, rgba(50, 20, 232, 0.2) 60.46%, rgba(50, 20, 232, 0.2) 71.41%) 1;
 }
 
 .nav-menu .logo {
@@ -147,4 +139,20 @@ footer p {
   display: block;
   text-decoration: none;
   margin: 0 12px;
+}
+
+.delete,
+#submit {
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 5%;
+  background: linear-gradient(223.69deg, rgba(246, 25, 224, 0.2) 42.35%, rgba(247, 25, 224, 0.2) 48.48%, rgba(50, 20, 232, 0.2) 60.46%, rgba(50, 20, 232, 0.2) 71.41%);
+}
+
+#title,
+#author {
+  background-color: rgb(227, 233, 233);
+  border: solid 5px;
+  border-image: linear-gradient(223.69deg, rgba(246, 25, 224, 0.2) 42.35%, rgba(247, 25, 224, 0.2) 48.48%, rgba(50, 20, 232, 0.2) 60.46%, rgba(50, 20, 232, 0.2) 71.41%) 1;
 }
