@@ -1,8 +1,8 @@
 ## Book List: A book list built with javascript modules.
 
->This is project built to show collections of books, and give users access to add new books or remove an existing book
+>This is project built to showcase collections of books, and give users access to add new books or remove an existing book
 
-## Deployed Version: [BookApp](https://kamzzy.github.io/bookApp/)
+## [Click For Live Version](https://kamzzy.github.io/bookApp/)
 
 ## Built With
 * HTML
