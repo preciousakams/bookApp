@@ -2,7 +2,7 @@
 
 >This is project built to showcase a collection of books, and give users access to add new books or remove an existing book
 
-## [Click For Live Version](https://kamzzy.github.io/bookApp/)
+## [Click For Live Version](https://preciousakams.github.io/bookApp/)
 
 ## Built With
 * HTML
